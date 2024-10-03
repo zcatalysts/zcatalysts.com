@@ -1,0 +1,180 @@
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  max-width: 1280px;
+  font-family: "Fira Sans",serif;
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+  line-height: 1.5em;
+  margin-bottom: 50px;
+  color: #333333;
+}
+
+center {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+h1 {
+  padding-top: 2%;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #000000;
+}
+h2 {
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #000000;
+}
+h3 {
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #000000;
+}
+h4 {
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #000000;
+}
+
+nav {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  text-align: right;
+  padding: 0%;
+  top: 0;
+  width: 100%;
+  max-width: 1280px;
+  border-bottom: 2px solid;
+}
+nav ul li {
+  display: inline-block;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+b {
+  color: #c7254e;
+}
+
+strong {
+  color: #c7254e;
+}
+
+.title {
+  padding-top: 2%;
+  line-height: 1em;
+  margin-bottom: 2%;
+  font-weight: 570;
+  font-family: "Montserrat", Arial, sans-serif;
+  margin-top: 1%;
+  font-size: 2.5em;
+  color: #c7254e;
+  padding-bottom: 2%;
+}
+footer a {
+  text-decoration: none;
+}
+
+hr {
+  width: 80%;
+  max-width: 1280px;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  margin: 2em;
+  font-family: monospace, monospace;
+  border: 1px solid #bbb;
+  box-shadow: 5px 5px 5px #eee;
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 5px;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: #0071bc;
+  background-color: transparent;
+  text-decoration: none;
+  margin: 0 0.12em;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+a:hover,
+a:focus {
+  color: #005893;
+  text-decoration: underline;
+}
+
+code {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #ebf5fb;
+  border-radius: 4px;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+blockquote {
+  background: #fde8be;
+  font-style: italic;
+  font-size: 1em;
+  margin: 2em 0.5em;
+  padding: 3px 2em 3px 2em;
+  line-height: 1.5em;
+  border-radius: 5px;
+}
+
+img,
+iframe,
+video {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 200px;
+  width: 60%;
+  margin: auto;
+  border: 1px solid #666;
+}
+table thead th {
+  border-bottom: 1px solid;
+  background-color: #a9cce3;
+}
+th,
+td {
+  padding: 3px 5px;
+  border: 1px solid #666;
+}
+tr:hover td {
+  background-color: #ebf5fb;
+  color: #c7254e;
+}
