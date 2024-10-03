@@ -1,0 +1,4 @@
+baseURL = 'https://zcatalysts.com/'
+languageCode = 'en-us'
+title = 'zcatalysts.com'
+theme = 'hugo-techblog-theme'
